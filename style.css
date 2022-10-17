@@ -26,6 +26,7 @@ header{
     color: white;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     z-index: 10;
+    
 }
 
 header > h1{
@@ -121,8 +122,8 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
+
 footer > button{
     background-color: #CBCBCB;
     border: none;
@@ -136,4 +137,119 @@ footer > button{
     text-align: center;
     color: #ffffff;
     cursor:pointer;
+}
+
+
+/* Bonus tela de pedido */
+
+.request-food{
+    background-color: rgba(255, 255, 255, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 414px;
+    height: 100%;
+    right: 50%;
+    z-index: 11;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.hidden{
+    display: none;
+}
+
+.resquest-food-container{
+    width: 377px;
+    height: 353px;
+    background-color: #50D074;
+    border-radius: 9px;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.25);
+    padding-left: 26px;
+    padding-right: 26px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding-top: 21px;
+   
+    
+}
+
+.resquest-food-container >h2{
+    text-align: center;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    margin-bottom: 28px;
+}
+
+
+
+.resquest-food-container > div > span{
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.018em;
+}
+
+.resquest-food-container > div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.resquest-food-container > div > span{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 13px;
+}
+
+.resquest-food-container .total{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.018em;
+}
+
+.request-button{
+    width: 333px;
+    height: 52px;
+    border: none;
+    background-color: #ffffff;
+    color: #50D074;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    cursor: pointer;
+}
+
+.request-cancel{
+    border: none;
+    background-color: transparent;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    cursor: pointer;
+}
+
+
+
+
+
+.selected{
+    border: 3px solid #32B72F;
+}
+
+.selected2{
+    display: block;
+    position: absolute;
+    bottom: 13px;
+    right: 14px;
+}
+
+.none{
+    display: none;
 }
